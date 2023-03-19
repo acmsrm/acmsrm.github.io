@@ -1,0 +1,27 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  height: 4rem;
+  width: 100%;
+  background-color: transparent;
+}
+.lin {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo {
+  justify-content: flex-start;
+  width: 50%;
+  align-self: center;
+}
+.logo img {
+  width: 3rem;
+  height: 3rem;
+  margin-left: 2rem;
+}
+a {
+  text-decoration: none;
+  color: black;
+}

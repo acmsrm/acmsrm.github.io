@@ -1,0 +1,111 @@
+.home {
+  background-image: url("./assets/images/bg.png");
+  background-repeat: no-repeat;
+  transition: cubic-bezier(1, 0, 0, 1);
+  background-size: 100% 100%;
+  height: 35rem;
+  display: flex;
+  flex-direction: row;
+}
+.home div {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ima {
+  width: 70%;
+  height: auto;
+  margin-top: 10rem;
+}
+.home div h1 {
+  color: white;
+  font-size: 5rem;
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+
+.about h1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8rem;
+  font-size: 3rem;
+  font-weight: 1200;
+  /* margin-right: 15rem; */
+}
+.aboutcont {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5rem;
+}
+.aboutcont div {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+}
+.aboutcont div img {
+  width: 80%;
+}
+.aboutcontpara {
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutcontpara p {
+  width: 80%;
+  text-align: justify;
+}
+.aboutcontpara button {
+  margin-top: 3rem;
+  width: 12rem;
+  height: 3.5rem;
+  margin-right: 15rem;
+  border-color: blue;
+  border-radius: 1rem;
+  color: blue;
+  font-weight: 800;
+  font-size: 1.2rem;
+  background-color: white;
+}
+.aboutcontpara button:hover {
+  color: white;
+  background-color: blue;
+  transition: background-color ease-out 1s;
+  border-radius: white;
+}
+.what {
+  background-image: url("./assets/images/bgpattern.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 35rem;
+  display: flex;
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+.what div {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+}
+.what div h1 {
+  justify-content: flex-start;
+  align-self: flex-start;
+  align-items: flex-start;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+.what div p {
+  font-size: 1.2rem;
+}
